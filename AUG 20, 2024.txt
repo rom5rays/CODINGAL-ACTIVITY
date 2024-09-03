@@ -1,0 +1,62 @@
+#
+v = 4
+w = 5
+x = 8
+y = 2
+z = 0
+z = (v+w) * x / y;
+print("Value of (v+w) * x/ y is", z)
+
+name = 'Alex'
+age = 0
+
+if name == 'Alex' or name == 'John' and age >= 2 :
+  print('Hello! Welcome.')
+else :
+  print('Good bye!!')
+
+#
+num = int(input("Enter the numerator:"))
+den = int(input("Enter the denominator:"))
+
+if num % den == 0:
+  print(f"{num} is divisible by {den}")
+else:
+  print(f"{num} is not divisible by {den}")
+
+
+#
+mean1 = 38
+wrong_number = 36
+correct_number = 56
+total_number = 40
+
+#sum of 40 numbers
+sum = mean1 * total_number
+print("sum of 40 numbers: ", sum)
+
+#correct sum of these numbers
+num2 = sum - ((wrong_number) - (correct_number))
+print("sum - ((wrong_number) - (correct_number)): ", num2)
+
+#correct number mean
+mean2 = num2 / total_number
+print("correct number mean: ", mean2)
+
+
+#
+c1 = 10
+c2 = 20
+c3 = 30
+
+avg_speed = (c1 + c2 + c3) / 3
+print('The average spped of the cyclists is,', avg_speed)
+
+if c1<avg_speed:
+  print('c1 is slower than the average speed')
+elif c2<avg_speed:
+  print('c2 is slower than the average speed')
+elif c3<avg_speed:
+  print('c3 is slower than the average speed')
+else:
+  print('None of the cyclist is slower than the average speed')
