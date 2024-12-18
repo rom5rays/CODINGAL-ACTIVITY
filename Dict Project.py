@@ -6,10 +6,12 @@ k = int(input('Enter a number for the value of k:'))
 
 res = 0
 
-for key in test_dict:
+for key in test_dict :
     if test_dict[key] == k:
         res += 1
 
 print(res)        
 print("Frequency of k is:" + str(res))
 print(f"Frequency of k is: {res}")
+
+test_dict['Codingal'] = 3
