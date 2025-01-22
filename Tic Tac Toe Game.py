@@ -85,9 +85,11 @@ def game():
             turn = 'X'
 
     restart = input("Do you want to play Again?(y/n)")
-    if restart == "y" of restart =="Y":
+    if restart == "y" or restart =="Y":
         for key in board_keys:
             theBoard[key] = " "
 
         game()
-        
+
+if __name__ == "__main__":
+    game()         
